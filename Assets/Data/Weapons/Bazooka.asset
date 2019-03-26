@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57fdc7800e35814791cd114867fd6eb, type: 3}
+  m_Name: Bazooka
+  m_EditorClassIdentifier: 
+  Name: Bazooka
+  Chargable: 1
+  Aiming: 0
+  ShootAnimation: {fileID: 7400000, guid: 0c768fbc8f1dbf94fbbf76d9bdda5a3c, type: 2}
+  ShootAnimationUp: {fileID: 7400000, guid: 225a3038b95abad4f97a3efa9ef34051, type: 2}
+  ShootAnimationDown: {fileID: 7400000, guid: 038835fe5e565af41bbd877a89862d1e, type: 2}
+  Projectile: {fileID: 1996657852513154, guid: 7bc5d1ffe8fa859488b1a11b2c9b4d69, type: 2}
+  MinAngle: -90
+  MaxAngle: 90
+  MinPower: 0
+  MaxPower: 0
+  AfterTime: 3
+  ControlWeapon: 0
+  OverrideIdleAnims: 1
+  IdleStraight: {fileID: 7400000, guid: 5cff5985b3fd20e419153afb4b018f94, type: 2}
+  IdleUp: {fileID: 7400000, guid: 7811c7a139d833549b7a1b5a2ba24b3f, type: 2}
+  IdleDown: {fileID: 7400000, guid: 19a8294cb411c914f9b4b42ec650cc4c, type: 2}
+  OverrideMoveAnims: 1
+  MoveStraight: {fileID: 7400000, guid: ad570d80d564f0145ac63c0368aeb6e1, type: 2}
+  MoveUp: {fileID: 7400000, guid: a66fd9670a1e93c4fb4b4052cafdeffd, type: 2}
+  MoveDown: {fileID: 7400000, guid: ed2576470e3bcad41a6579026782ee94, type: 2}

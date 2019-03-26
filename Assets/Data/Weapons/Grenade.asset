@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57fdc7800e35814791cd114867fd6eb, type: 3}
+  m_Name: Grenade
+  m_EditorClassIdentifier: 
+  Name: Grenade
+  Chargable: 0
+  Aiming: 0
+  ShootAnimation: {fileID: 0}
+  Projectile: {fileID: 0}
+  MinAngle: -90
+  MaxAngle: 90
+  MinPower: 0
+  MaxPower: 0
+  IdleStraight: {fileID: 7400000, guid: e1f75fb5e48c6994c95dcb39e3f89d6f, type: 2}
+  IdleUp: {fileID: 7400000, guid: f390779affb51db4abb25dbc9a8afe1a, type: 2}
+  IdleDown: {fileID: 7400000, guid: e7593086a58e08d41818df9058d5eff3, type: 2}
